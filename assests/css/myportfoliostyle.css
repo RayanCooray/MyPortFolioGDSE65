@@ -542,21 +542,18 @@ body>main:nth-child(4)>h2{
     margin-left: 100px;
     margin-top: 20px;
 }
-
 #csspng{
 
     width: 200px;
     margin-top: -110px;
     margin-left: 550px;
 }
-
 #illustratorpng{
 
     width: 200px;
     margin-left: 950px ;
     margin-top: -110px;
 }
-
 #photshoppng{
 
     width: 200px;
@@ -564,24 +561,171 @@ body>main:nth-child(4)>h2{
     margin-left: 100px;
 
 }
-
 #figmapng{
 
     width: 200px;
     margin-top: -110px;
     margin-left: 550px;
 }
-
 #jspng{
 
     width: 200px;
     margin-top: -110px;
     margin-left: 950px;
 }
-
 #mysqlpng{
 
     width: 200px;
     margin-top: 50px;
     margin-left: 550px;
 }
+
+
+body>main:nth-child(5){
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+body>main:nth-child(5)>#experience{
+    text-align: center;
+    color: #F4E0E0;
+    font-family: Istok Web;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+
+#wokingex{
+    width: 500px;
+    height: 250px;
+    border: 5px solid #E9CDCD;
+    border-radius: 10px 10px 0 0 ;
+}
+
+#workingtop{
+    margin-left: -40px;
+    margin-top: 10px;
+    color: #F9ECEC;
+    font-family: Istok Web;
+    margin-left: 10px;
+    /*margin-right: 10px;*/
+    text-decoration-line: underline;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#haveworkd{
+    margin-right: 40px;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    color: #F9ECEC;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+
+
+#workingex2{
+    width: 500px;
+    height: 250px;
+    border: 5px solid #E9CDCD;
+    border-radius: 10px 10px 0 0 ;
+    margin-left: 650px;
+    margin-top: -260px;
+}
+
+
+#audiotop{
+    margin-left: -40px;
+    margin-top: 10px;
+    color: #F9ECEC;
+    font-family: Istok Web;
+    margin-left: 10px;
+    /*margin-right: 10px;*/
+    text-decoration-line: underline;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#bsc5{
+    margin-right: 40px;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    color: #F9ECEC;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.3;
+}
+
+#ins5{
+    margin-right: 40px;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    color: #F9ECEC;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+
+
+#workingex3{
+    width: 500px;
+    height: 200px;
+    border: 5px solid #E9CDCD;
+    border-radius: 10px 10px 0 0 ;
+    margin-left: 320px;
+    margin-top: 10px;
+}
+
+#profswtop{
+    margin-left: -40px;
+    margin-top: 10px;
+    color: #F9ECEC;
+    font-family: Istok Web;
+    text-align: center;
+    /*margin-right: 10px;*/
+    text-decoration-line: underline;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#bsc6{
+    /*margin-right: 40px;*/
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #F9ECEC;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.3;
+}
+
+#ins6{
+    /*margin-right: 40px;*/
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+    color: #F9ECEC;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+
