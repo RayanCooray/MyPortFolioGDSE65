@@ -1,0 +1,245 @@
+body>main:nth-child(7){
+    position: relative;
+    width: 100vw;
+    height: 170vh;
+    background-color: black;
+}
+
+.main4assinments{
+    text-align: center;
+    color: #F4E0E0;
+    font-family: Istok Web;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.assignment_card1 {
+    width: 300px;
+    height: 200px;
+    /*background: #243137;*/
+    background: #092032;
+    position: relative;
+    display: grid;
+    place-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    left: 100px;
+}
+
+.logo-main, .logo-second {
+    height: 100%;
+}
+
+.logo-main {
+    fill: #bd9f67;
+}
+
+.logo-second {
+    padding-bottom: 10px;
+    fill: none;
+    stroke: #bd9f67;
+    stroke-width: 1px;
+}
+
+.border {
+    position: absolute;
+    inset: 0px;
+    /*border: 2px solid #bd9f67;*/
+    border: 2px solid #E9CDCD;
+    opacity: 0;
+    transform: rotate(10deg);
+    transition: all 0.5s ease-in-out;
+}
+
+.bottom-text {
+    position: absolute;
+    left: 50%;
+    bottom: 13px;
+    transform: translateX(-50%);
+    font-size: 6px;
+    text-transform: uppercase;
+    padding: 0px 5px 0px 8px;
+    /*color: #bd9f67;*/
+    color: #E9CDCD;
+    background: #243137;
+    opacity: 0;
+    letter-spacing: 7px;
+    transition: all 0.5s ease-in-out;
+}
+
+.content {
+    transition: all 0.5s ease-in-out;
+}
+
+.content .logo {
+    height: 35px;
+    position: relative;
+    width: 33px;
+    overflow: hidden;
+    transition: all 1s ease-in-out;
+}
+
+.content .logo .logo1 {
+    height: 33px;
+    position: absolute;
+    left: 0;
+}
+
+.content .logo .logo2 {
+    height: 33px;
+    position: absolute;
+    left: 33px;
+}
+
+.content .logo .trail {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.content .logo-bottom-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 30px;
+    /*color: #bd9f67;*/
+    color: #E9CDCD;
+    padding-left: 8px;
+    font-size: 11px;
+    opacity: 0;
+    letter-spacing: 0.5px;
+    transition: all 0.5s ease-in-out 0.5s;
+}
+
+.assignment_card1:hover {
+    border-radius: 0;
+    transform: scale(1.1);
+}
+
+.assignment_card1:hover .logo {
+    width: 134px;
+    animation: opacity 1s ease-in-out;
+}
+
+.assignment_card1:hover .border {
+    inset: 15px;
+    opacity: 1;
+    transform: rotate(0);
+}
+
+.assignment_card1:hover .bottom-text {
+    letter-spacing: 3px;
+    opacity: 1;
+    transform: translateX(-50%);
+}
+
+.assignment_card1:hover .content .logo-bottom-text {
+    opacity: 1;
+    letter-spacing: 9.5px;
+}
+
+.assignment_card1:hover .trail {
+    animation: trail 1s ease-in-out;
+}
+
+@keyframes opacity {
+    0% {
+        border-right: 1px solid transparent;
+    }
+
+    10% {
+        /*border-right: 1px solid #bd9f67; */
+        border-right: 1px solid #E9CDCD;
+    }
+
+    80% {
+        /*border-right: 1px solid #bd9f67;*/
+        border-right: 1px solid #E9CDCD;
+    }
+
+    100% {
+        border-right: 1px solid transparent;
+    }
+}
+
+@keyframes trail {
+    0% {
+        background: linear-gradient(90deg, rgba(233, 205, 205, 0) 90%, #E9CDCD 100%);
+        opacity: 0;
+    }
+
+    30% {
+        background: linear-gradient(90deg, rgba(233, 205, 205, 0) 70%, #E9CDCD 100%);
+        opacity: 1;
+    }
+
+    70% {
+        background: linear-gradient(90deg, rgba(233, 205, 205, 0) 70%, #E9CDCD 100%);
+        opacity: 1;
+    }
+
+    95% {
+        background: linear-gradient(90deg, rgba(233, 205, 205, 0) 90%, #E9CDCD 100%);
+        opacity: 0;
+    }
+}
+
+#assignment_card1{
+    left: 100px;
+    margin-top: 50px;
+}
+
+
+#assignment_card2{
+    left: 475px;
+    margin-top: -200px;
+}
+
+
+#assignment_card3{
+    left: 850px;
+    margin-top: -200px;
+}
+
+
+#assignment_card4{
+    left: 100px;
+    margin-top: 100px;
+}
+
+
+#assignment_card5{
+    left: 475px;
+    margin-top: -200px;
+}
+
+
+#assignment_card6{
+    left: 850px;
+    margin-top: -200px;
+}
+
+
+#assignment_card7{
+    left: 100px;
+    margin-top: 100px;
+}
+
+
+#assignment_card8{
+    left: 475px;
+    margin-top: -200px;
+}
+
+
+#assignment_card9{
+    left: 850px;
+    margin-top: -200px;
+}
