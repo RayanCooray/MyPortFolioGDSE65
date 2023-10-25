@@ -2,7 +2,7 @@
     body {
         background-color: #000;
         overflow-x: hidden;
-        overflow-y: hidden;
+        /*overflow-y: hidden;*/
     }
 
     body>main:first-child>h1 {
@@ -161,13 +161,7 @@
     }
 }
 
-@media (max-width: 415px) {
-    #menubtn{
-        display: block !important;
-    }
-    .navigationbar{
-        display: none !important;
-    }
+@media (max-width: 420px) {
     .navigationbar{
         position: absolute;
         top: 0;
@@ -177,7 +171,6 @@
     }
     body>main:first-child>aside>nav a{
         display: block;
-
     }
 
     .asideMain1{
@@ -186,8 +179,8 @@
 
     body {
         background-color: #000;
-        overflow-x: hidden;
-        overflow-y: hidden;
+        overflow-x: hidden !important;
+        /*overflow-y: hidden !important;*/
     }
     body>main:first-child>h1 {
         color: #fff;
@@ -349,7 +342,7 @@
     body {
         background-color: #000;
         overflow-x: hidden;
-        overflow-y: hidden;
+        /*overflow-y: hidden;*/
     }
 
     body>main:first-child>h1 {
@@ -513,7 +506,7 @@
     body {
         background-color: #000;
         overflow-x: hidden;
-        overflow-y: hidden;
+       /* overflow-y: hidden;*/
     }
 
     body>main:first-child>h1 {

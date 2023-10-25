@@ -142,7 +142,7 @@ body>main:nth-child(7){
 
 .assignment_card1:hover .content .logo-bottom-text {
     opacity: 1;
-    letter-spacing: 9.5px;
+    letter-spacing: 1.5px;
 }
 
 .assignment_card1:hover .trail {
