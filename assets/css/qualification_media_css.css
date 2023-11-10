@@ -1,0 +1,78 @@
+@media (max-width: 768px) {
+    #menubtn{
+        display: block !important;
+    }
+    #se1{
+        display: none !important;
+    }
+    #se2{
+        display: none !important;
+    }
+    #se3{
+        display: none !important;
+    }
+    #se4{
+        display: none !important;
+    }
+    #imgijse{
+        display: none !important;
+    }
+    #imgeholycross1{
+        display: none !important;
+    }
+    #imgprimayholy{
+        display: none !important;
+    }
+    #imgiwms{
+        display: none !important;
+    }
+    .slider{
+        /*background-image:*/
+        /*        linear-gradient(*/
+        /*                to top right, #2f2c2c, #dc9898, #3a3636*/
+        /*        );*/
+        display: block !important;
+        position: relative;
+        /*width: 100%;*/
+        height: 370px;
+        /*overflow: hidden;*/
+    }
+    #imgijsem{
+        /*border: 5px solid #ff253a;*/
+        margin-left: 90px;
+        margin-top: -70px;
+            }
+    .imgeholycross1s{
+        margin-left: -11px;
+        margin-top: -20px;
+    }
+    .item{
+        position: absolute;
+        width: 200px;
+        height: 320px;
+        text-align: justify;
+        font-family: Istok Web;
+        background: rgba(233, 205, 205, 0.45);
+        line-height: 1.5;
+        border-radius: 10px;
+        padding: 20px;
+        transition: 0.5s;
+        left: calc(50% - 110px);
+        top: 0;
+    }
+    #next, #prev{
+        position: absolute;
+        top: 40%;
+        color: #fff;
+        background-color: transparent;
+        border: none;
+        font-size: xxx-large;
+        font-family: monospace;
+        font-weight: bold;
+        left: 390px;
+    }
+    #next{
+        left: unset;
+        right: 390px;
+    }
+}
