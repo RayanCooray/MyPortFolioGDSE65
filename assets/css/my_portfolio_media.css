@@ -1,8 +1,6 @@
 @media (max-width: 768px)  {
     body {
         background-color: #000;
-        overflow-x: hidden;
-        /*overflow-y: hidden;*/
     }
 
     body>main:first-child>h1 {
@@ -162,6 +160,13 @@
 }
 
 @media (max-width: 420px) {
+    body>main:first-child>aside>nav a{
+        display: block;
+    }
+    .asideMain1{
+        width: 200px;
+    }
+
     .navigationbar{
         position: absolute;
         top: 0;
@@ -169,18 +174,9 @@
         width: 100%;
         color: white;
     }
-    body>main:first-child>aside>nav a{
-        display: block;
-    }
-
-    .asideMain1{
-        width: 200px;
-    }
 
     body {
         background-color: #000;
-        overflow-x: hidden !important;
-        /*overflow-y: hidden !important;*/
     }
     body>main:first-child>h1 {
         color: #fff;
@@ -335,14 +331,11 @@
         width: 100vw;
         height: 100vh;
         background-color: #000;
-    }
-}
+    }}
 
 @media (max-width: 771px)  {
     body {
         background-color: #000;
-        overflow-x: hidden;
-        /*overflow-y: hidden;*/
     }
 
     body>main:first-child>h1 {
@@ -501,12 +494,9 @@
     }
 }
 
-
 @media (max-width: 814px)  {
     body {
         background-color: #000;
-        overflow-x: hidden;
-       /* overflow-y: hidden;*/
     }
 
     body>main:first-child>h1 {

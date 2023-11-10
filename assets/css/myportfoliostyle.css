@@ -1,7 +1,7 @@
 body{
     background-color: black;
-    overflow-x: hidden ;
-    /*overflow-y: hidden; !important;*/
+    /*overflow-y: hidden !important;*/
+    /*overflow-x: hidden !important;*/
 }
 
 body>main:first-child>h1{
